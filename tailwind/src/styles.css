@@ -1,0 +1,11 @@
+@import '../../button/dist/button.css';
+@import '../../main-title/dist/main-title.css';
+@import '../../main-subtitle/dist/main-subtitle.css';
+@import '../../tailwind/dist/commons.css';
+
+@tailwind base;
+
+/* Tailwind is pushing the default line-height too much */
+html {
+  line-height: 1.25;
+}

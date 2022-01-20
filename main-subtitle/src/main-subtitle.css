@@ -1,0 +1,14 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-subtitle {
+    @apply text-base
+		text-white
+		opacity-75
+		sm:text-lg
+		sm:max-w-xl
+		md:text-xl
+		leading-relaxed;
+  }
+}
